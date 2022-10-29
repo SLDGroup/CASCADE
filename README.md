@@ -1,6 +1,6 @@
 # CASCADE
 
-This is the implementation of ["Medical Image Segmentation via Cascaded Attention Decoding"] (Paper Id: 2100). 
+This is the implementation of "Medical Image Segmentation via Cascaded Attention Decoding". 
 
 
 ## Usage:
