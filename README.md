@@ -1,6 +1,6 @@
 # CASCADE
 
-This is the implementation of "Medical Image Segmentation via Cascaded Attention Decoding". 
+This is the implementation of "Medical Image Segmentation via Cascaded Attention Decoding" WACV 2023 (Accepted). 
 
 
 ## Usage:
