@@ -1,6 +1,6 @@
 # CASCADE
 
-This is the implementation of "Medical Image Segmentation via Cascaded Attention Decoding" WACV 2023 (Accepted). 
+This is the implementation of [Medical Image Segmentation via Cascaded Attention Decoding, WACV 2023](https://openaccess.thecvf.com/content/WACV2023/html/Rahman_Medical_Image_Segmentation_via_Cascaded_Attention_Decoding_WACV_2023_paper.html). 
 
 
 ## Usage:
@@ -13,13 +13,13 @@ torchvision 0.12.0
 Please use "pip install -r requirements.txt" to install the dependencies.
 
 ### Data preparation:
-- Synapse Multi-organ dataset
+- Synapse Multi-organ dataset:
 Sign up in the [official Synapse website](https://www.synapse.org/#!Synapse:syn3193805/wiki/89480) and download the dataset. Then split the 'RawData' folder into 'TrainSet' (18 scans) and 'TestSet' (12 scans) following the [TransUNet's](https://github.com/Beckschen/TransUNet/blob/main/datasets/README.md) lists and put in the './data/synapse/Abdomen/RawData/' folder. Finally, preprocess using 'python ./utils/preprocess_synapse_data.py' and save in the './data/synapse/' folder. 
 
-- ACDC dataset
+- ACDC dataset:
 Download the preprocessed ACDC dataset from [Google Drive](https://drive.google.com/file/d/13qYHNIWTIBzwyFgScORL2RFd002vrPF2/view) and move into './data/ACDC/' folder.
 
-- Polyp datasets
+- Polyp datasets:
 Download training and testing datasets [Google Drive](https://drive.google.com/file/d/1pFxb9NbM8mj_rlSawTlcXG1OdVGAbRQC/view?usp=sharing) and move them into './data/polyp/'.
 
 
@@ -43,3 +43,13 @@ For Polyp testing run "CUDA_VISIBLE_DEVICES=0 python -W ignore test_ACDC.py"
 ## Acknowledgement
 We are very grateful for these excellent works [PraNet](https://github.com/DengPingFan/PraNet), [Polyp-PVT](https://github.com/DengPingFan/Polyp-PVT) and [TransUNet](https://github.com/Beckschen/TransUNet), which have provided the basis for our framework.
 
+## Citations
+
+@InProceedings{Rahman_2023_WACV,
+    author    = {Rahman, Md Mostafijur and Marculescu, Radu},
+    title     = {Medical Image Segmentation via Cascaded Attention Decoding},
+    booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
+    month     = {January},
+    year      = {2023},
+    pages     = {6222-6231}
+}
