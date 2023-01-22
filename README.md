@@ -29,15 +29,23 @@ You should download the pretrained PVTv2 model from [Google Drive](https://drive
 Download Google pretrained ViT models (R50-ViT-B_16, ViT-B_16, ...) from [Google Cloud](https://console.cloud.google.com/storage/browser/vit_models/imagenet21k) or use "wget https://storage.googleapis.com/vit_models/imagenet21k/{MODEL_NAME}.npz", and then put them in the './pretrained_pth/vit/imagenet21k/' folder for initialization. 
 
 ### Training:
-cd into CASCADE //
+```
+cd into CASCADE
+```
 For Polyp training run "CUDA_VISIBLE_DEVICES=0 python -W ignore train_polyp.py" 
+
 For Synapse Multi-organ training run "CUDA_VISIBLE_DEVICES=0 python -W ignore train_synapse.py"
+
 For ACDC training run "CUDA_VISIBLE_DEVICES=0 python -W ignore train_ACDC.py"
 
 ### Testing:
+```
 cd into CASCADE 
+```
 For Polyp testing run "CUDA_VISIBLE_DEVICES=0 python -W ignore test_polyp.py" 
+
 For Synapse Multi-organ testing run "CUDA_VISIBLE_DEVICES=0 python -W ignore test_synapse.py"
+
 For ACDC testing run "CUDA_VISIBLE_DEVICES=0 python -W ignore test_ACDC.py"
 
 ## Acknowledgement
