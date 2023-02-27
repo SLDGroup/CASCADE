@@ -90,11 +90,11 @@ def trainer_synapse(args, model, snapshot_path):
             loss_dice3 = dice_loss(p3, label_batch, softmax=True)
             loss_dice4 = dice_loss(p4, label_batch, softmax=True)
             
-
-            loss_p1 = 0.5 * loss_ce1 + 0.5 * loss_dice1
-            loss_p2 = 0.5 * loss_ce2 + 0.5 * loss_dice2
-            loss_p3 = 0.5 * loss_ce3 + 0.5 * loss_dice3
-            loss_p4 = 0.5 * loss_ce4 + 0.5 * loss_dice4
+            
+            loss_p1 = 0.3 * loss_ce1 + 0.7 * loss_dice1
+            loss_p2 = 0.3 * loss_ce2 + 0.7 * loss_dice2
+            loss_p3 = 0.3 * loss_ce3 + 0.7 * loss_dice3
+            loss_p4 = 0.3 * loss_ce4 + 0.7 * loss_dice4
             
             alpha, beta, gamma, zeta = 1., 1., 1., 1.
             loss = alpha * loss_p1 + beta * loss_p2 + gamma * loss_p3 + zeta * loss_p4 # current setting is for additive aggregation.
