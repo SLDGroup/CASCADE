@@ -53,11 +53,13 @@ We are very grateful for these excellent works [PraNet](https://github.com/DengP
 
 ## Citations
 
-``` @InProceedings{Rahman_2023_WACV,
+``` 
+@InProceedings{Rahman_2023_WACV,
     author    = {Rahman, Md Mostafijur and Marculescu, Radu},
     title     = {Medical Image Segmentation via Cascaded Attention Decoding},
     booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
     month     = {January},
     year      = {2023},
     pages     = {6222-6231}
-} ```
+} 
+```
