@@ -13,13 +13,13 @@ torchvision 0.12.0
 Please use "pip install -r requirements.txt" to install the dependencies.
 
 ### Data preparation:
-- Synapse Multi-organ dataset:
+- **Synapse Multi-organ dataset:**
 Sign up in the [official Synapse website](https://www.synapse.org/#!Synapse:syn3193805/wiki/89480) and download the dataset. Then split the 'RawData' folder into 'TrainSet' (18 scans) and 'TestSet' (12 scans) following the [TransUNet's](https://github.com/Beckschen/TransUNet/blob/main/datasets/README.md) lists and put in the './data/synapse/Abdomen/RawData/' folder. Finally, preprocess using 'python ./utils/preprocess_synapse_data.py' and save in the './data/synapse/' folder. 
 
-- ACDC dataset:
+- **ACDC dataset:**
 Download the preprocessed ACDC dataset from [Google Drive](https://drive.google.com/file/d/13qYHNIWTIBzwyFgScORL2RFd002vrPF2/view) and move into './data/ACDC/' folder.
 
-- Polyp datasets:
+- **Polyp datasets:**
 Download training and testing datasets [Google Drive](https://drive.google.com/file/d/1pFxb9NbM8mj_rlSawTlcXG1OdVGAbRQC/view?usp=sharing) and move them into './data/polyp/'.
 
 
