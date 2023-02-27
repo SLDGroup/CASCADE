@@ -32,21 +32,21 @@ Download Google pretrained ViT models (R50-ViT-B_16, ViT-B_16, ...) from [Google
 ```
 cd into CASCADE
 ```
-For Polyp training run "CUDA_VISIBLE_DEVICES=0 python -W ignore train_polyp.py" 
+For Polyp training run ```CUDA_VISIBLE_DEVICES=0 python -W ignore train_polyp.py``` 
 
-For Synapse Multi-organ training run "CUDA_VISIBLE_DEVICES=0 python -W ignore train_synapse.py"
+For Synapse Multi-organ training run ```CUDA_VISIBLE_DEVICES=0 python -W ignore train_synapse.py```
 
-For ACDC training run "CUDA_VISIBLE_DEVICES=0 python -W ignore train_ACDC.py"
+For ACDC training run ```CUDA_VISIBLE_DEVICES=0 python -W ignore train_ACDC.py```
 
 ### Testing:
 ```
 cd into CASCADE 
 ```
-For Polyp testing run "CUDA_VISIBLE_DEVICES=0 python -W ignore test_polyp.py" 
+For Polyp testing run ```CUDA_VISIBLE_DEVICES=0 python -W ignore test_polyp.py``` 
 
-For Synapse Multi-organ testing run "CUDA_VISIBLE_DEVICES=0 python -W ignore test_synapse.py"
+For Synapse Multi-organ testing run ```CUDA_VISIBLE_DEVICES=0 python -W ignore test_synapse.py```
 
-For ACDC testing run "CUDA_VISIBLE_DEVICES=0 python -W ignore test_ACDC.py"
+For ACDC testing run ```CUDA_VISIBLE_DEVICES=0 python -W ignore test_ACDC.py```
 
 ## Acknowledgement
 We are very grateful for these excellent works [PraNet](https://github.com/DengPingFan/PraNet), [Polyp-PVT](https://github.com/DengPingFan/Polyp-PVT) and [TransUNet](https://github.com/Beckschen/TransUNet), which have provided the basis for our framework.
