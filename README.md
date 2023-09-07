@@ -1,6 +1,6 @@
 # CASCADE
 
-This is the implementation of [Medical Image Segmentation via Cascaded Attention Decoding, WACV 2023](https://openaccess.thecvf.com/content/WACV2023/html/Rahman_Medical_Image_Segmentation_via_Cascaded_Attention_Decoding_WACV_2023_paper.html). 
+This is the implementation of [Medical Image Segmentation via Cascaded Attention Decoding, WACV 2023](https://openaccess.thecvf.com/content/WACV2023/html/Rahman_Medical_Image_Segmentation_via_Cascaded_Attention_Decoding_WACV_2023_paper.html). GAIN 2023 best poster award.
 
 
 ## Usage:
