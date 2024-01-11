@@ -6,6 +6,12 @@ Official Pytorch implementation of [Medical Image Segmentation via Cascaded Atte
 [Md Mostafijur Rahman](https://github.com/mostafij-rahman), [Radu Marculescu](https://radum.ece.utexas.edu/)
 <p>The University of Texas at Austin</p>
 
+## Architecture
+
+<p align="center">
+<img src="cascade_architecture.jpg" width=100% height=40% 
+class="center">
+</p>
 
 ## Usage:
 ### Recommended environment:
