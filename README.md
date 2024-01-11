@@ -1,6 +1,6 @@
 # CASCADE
 
-Official Pytorch implementation of [Medical Image Segmentation via Cascaded Attention Decoding, WACV 2023](https://openaccess.thecvf.com/content/WACV2023/html/Rahman_Medical_Image_Segmentation_via_Cascaded_Attention_Decoding_WACV_2023_paper.html). <br> [GAIN 2023 best poster award] (https://sites.utexas.edu/gain/previous-winners/prev-gain-2023-posterwinners/)
+Official Pytorch implementation of [Medical Image Segmentation via Cascaded Attention Decoding, WACV 2023](https://openaccess.thecvf.com/content/WACV2023/html/Rahman_Medical_Image_Segmentation_via_Cascaded_Attention_Decoding_WACV_2023_paper.html). <br> [GAIN 2023 best poster award] (https://sites.utexas.edu/gain/previous-winners/prev-gain-2023-posterwinners)
 <br>
 [Md Mostafijur Rahman](https://github.com/mostafij-rahman), [Radu Marculescu](https://radum.ece.utexas.edu/)
 <p>The University of Texas at Austin</p>
